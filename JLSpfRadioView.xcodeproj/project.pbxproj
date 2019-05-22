@@ -14,6 +14,15 @@
 		226761D3229564C90027CB26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 226761D1229564C90027CB26 /* LaunchScreen.storyboard */; };
 		226761DE229564C90027CB26 /* JLSpfRadioViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226761DD229564C90027CB26 /* JLSpfRadioViewTests.swift */; };
 		226761E9229564C90027CB26 /* JLSpfRadioViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226761E8229564C90027CB26 /* JLSpfRadioViewUITests.swift */; };
+		226761FE229566380027CB26 /* JLSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226761F8229566370027CB26 /* JLSearchView.swift */; };
+		226761FF229566380027CB26 /* JLTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226761F9229566370027CB26 /* JLTabBar.swift */; };
+		22676200229566380027CB26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226761FA229566370027CB26 /* ViewController.swift */; };
+		22676201229566380027CB26 /* TabBarData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 226761FB229566370027CB26 /* TabBarData.plist */; };
+		2267620E2295694C0027CB26 /* LogoCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2267620A2295694C0027CB26 /* LogoCustomView.swift */; };
+		2267620F2295694C0027CB26 /* LoadCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2267620B2295694C0027CB26 /* LoadCustomView.swift */; };
+		226762102295694C0027CB26 /* Load1CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2267620C2295694C0027CB26 /* Load1CustomView.swift */; };
+		226762112295694C0027CB26 /* QCMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2267620D2295694C0027CB26 /* QCMethod.swift */; };
+		B6E5AB8396949D7A1855BB45 /* Pods_JLSpfRadioView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA8D60067C1397551E69419 /* Pods_JLSpfRadioView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,23 @@
 		226761E4229564C90027CB26 /* JLSpfRadioViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLSpfRadioViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		226761E8229564C90027CB26 /* JLSpfRadioViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLSpfRadioViewUITests.swift; sourceTree = "<group>"; };
 		226761EA229564C90027CB26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		226761F8229566370027CB26 /* JLSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLSearchView.swift; sourceTree = "<group>"; };
+		226761F9229566370027CB26 /* JLTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLTabBar.swift; sourceTree = "<group>"; };
+		226761FA229566370027CB26 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		226761FB229566370027CB26 /* TabBarData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TabBarData.plist; sourceTree = "<group>"; };
+		22676203229568C70027CB26 /* 123456.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 123456.gif; sourceTree = "<group>"; };
+		22676204229568C70027CB26 /* 1111.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1111.gif; sourceTree = "<group>"; };
+		22676205229568C70027CB26 /* 20190402134019.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 20190402134019.gif; sourceTree = "<group>"; };
+		22676206229568C70027CB26 /* 123.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 123.jpg; sourceTree = "<group>"; };
+		22676207229568C70027CB26 /* 20190402133750.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 20190402133750.gif; sourceTree = "<group>"; };
+		22676208229568C70027CB26 /* 20190402133640.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 20190402133640.gif; sourceTree = "<group>"; };
+		2267620A2295694C0027CB26 /* LogoCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoCustomView.swift; sourceTree = "<group>"; };
+		2267620B2295694C0027CB26 /* LoadCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadCustomView.swift; sourceTree = "<group>"; };
+		2267620C2295694C0027CB26 /* Load1CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Load1CustomView.swift; sourceTree = "<group>"; };
+		2267620D2295694C0027CB26 /* QCMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCMethod.swift; sourceTree = "<group>"; };
+		4AEFEF32DDA452C239145B0D /* Pods-JLSpfRadioView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLSpfRadioView.release.xcconfig"; path = "Pods/Target Support Files/Pods-JLSpfRadioView/Pods-JLSpfRadioView.release.xcconfig"; sourceTree = "<group>"; };
+		BDA8D60067C1397551E69419 /* Pods_JLSpfRadioView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLSpfRadioView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA70A6F980C3E836BFDB4E1C /* Pods-JLSpfRadioView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLSpfRadioView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JLSpfRadioView/Pods-JLSpfRadioView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6E5AB8396949D7A1855BB45 /* Pods_JLSpfRadioView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +101,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03CB1D815F281540912A01C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA70A6F980C3E836BFDB4E1C /* Pods-JLSpfRadioView.debug.xcconfig */,
+				4AEFEF32DDA452C239145B0D /* Pods-JLSpfRadioView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		226761BC229564C70027CB26 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +117,8 @@
 				226761DC229564C90027CB26 /* JLSpfRadioViewTests */,
 				226761E7229564C90027CB26 /* JLSpfRadioViewUITests */,
 				226761C6229564C70027CB26 /* Products */,
+				03CB1D815F281540912A01C0 /* Pods */,
+				53E44D6E8CB6E7936850387F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +135,14 @@
 		226761C7229564C70027CB26 /* JLSpfRadioView */ = {
 			isa = PBXGroup;
 			children = (
+				22676209229568F90027CB26 /* Animation Code */,
 				226761C8229564C70027CB26 /* AppDelegate.swift */,
+				22676202229568C70027CB26 /* image */,
+				226761FB229566370027CB26 /* TabBarData.plist */,
 				226761CA229564C70027CB26 /* ViewController.swift */,
+				226761F8229566370027CB26 /* JLSearchView.swift */,
+				226761F9229566370027CB26 /* JLTabBar.swift */,
+				226761FA229566370027CB26 /* ViewController.swift */,
 				226761CC229564C70027CB26 /* Main.storyboard */,
 				226761CF229564C90027CB26 /* Assets.xcassets */,
 				226761D1229564C90027CB26 /* LaunchScreen.storyboard */,
@@ -125,6 +169,38 @@
 			path = JLSpfRadioViewUITests;
 			sourceTree = "<group>";
 		};
+		22676202229568C70027CB26 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				22676203229568C70027CB26 /* 123456.gif */,
+				22676204229568C70027CB26 /* 1111.gif */,
+				22676205229568C70027CB26 /* 20190402134019.gif */,
+				22676206229568C70027CB26 /* 123.jpg */,
+				22676207229568C70027CB26 /* 20190402133750.gif */,
+				22676208229568C70027CB26 /* 20190402133640.gif */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		22676209229568F90027CB26 /* Animation Code */ = {
+			isa = PBXGroup;
+			children = (
+				2267620C2295694C0027CB26 /* Load1CustomView.swift */,
+				2267620B2295694C0027CB26 /* LoadCustomView.swift */,
+				2267620A2295694C0027CB26 /* LogoCustomView.swift */,
+				2267620D2295694C0027CB26 /* QCMethod.swift */,
+			);
+			path = "Animation Code";
+			sourceTree = "<group>";
+		};
+		53E44D6E8CB6E7936850387F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDA8D60067C1397551E69419 /* Pods_JLSpfRadioView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 226761ED229564C90027CB26 /* Build configuration list for PBXNativeTarget "JLSpfRadioView" */;
 			buildPhases = (
+				C3F1498D2AC68316E0F4A58B /* [CP] Check Pods Manifest.lock */,
 				226761C1229564C70027CB26 /* Sources */,
 				226761C2229564C70027CB26 /* Frameworks */,
 				226761C3229564C70027CB26 /* Resources */,
+				7511EC740F99712BFE40A4D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22676201229566380027CB26 /* TabBarData.plist in Resources */,
 				226761D3229564C90027CB26 /* LaunchScreen.storyboard in Resources */,
 				226761D0229564C90027CB26 /* Assets.xcassets in Resources */,
 				226761CE229564C70027CB26 /* Main.storyboard in Resources */,
@@ -251,13 +330,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7511EC740F99712BFE40A4D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JLSpfRadioView/Pods-JLSpfRadioView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/WHDebugTool/WHDebugTool.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WHDebugTool.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLSpfRadioView/Pods-JLSpfRadioView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3F1498D2AC68316E0F4A58B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JLSpfRadioView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		226761C1229564C70027CB26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2267620E2295694C0027CB26 /* LogoCustomView.swift in Sources */,
+				2267620F2295694C0027CB26 /* LoadCustomView.swift in Sources */,
+				22676200229566380027CB26 /* ViewController.swift in Sources */,
+				226761FE229566380027CB26 /* JLSearchView.swift in Sources */,
 				226761CB229564C70027CB26 /* ViewController.swift in Sources */,
 				226761C9229564C70027CB26 /* AppDelegate.swift in Sources */,
+				226761FF229566380027CB26 /* JLTabBar.swift in Sources */,
+				226762102295694C0027CB26 /* Load1CustomView.swift in Sources */,
+				226762112295694C0027CB26 /* QCMethod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +569,7 @@
 		};
 		226761EE229564C90027CB26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA70A6F980C3E836BFDB4E1C /* Pods-JLSpfRadioView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +588,7 @@
 		};
 		226761EF229564C90027CB26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AEFEF32DDA452C239145B0D /* Pods-JLSpfRadioView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

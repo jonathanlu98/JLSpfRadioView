@@ -1,0 +1,6 @@
+framework module Pods_JLSpfRadioView {
+  umbrella header "Pods-JLSpfRadioView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,13 +1,13 @@
 //
 //  AppDelegate.swift
-//  JLSpfRadioView
+//  JLWelcomeView
 //
-//  Created by Jonathan Lu on 2019/5/22.
-//  Copyright © 2019 Jonathan Lu. All rights reserved.
+//  Created by Jonathan Lu on 2019/3/21.
+//  Copyright © 2019 JonathanLu. All rights reserved.
 //
 
 import UIKit
-
+import WHDebugTool
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,6 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        window = UIWindow(frame: UIScreen.main.bounds)
+
+        window?.rootViewController = TabBarController()
+        window?.backgroundColor = .white
+        window?.makeKeyAndVisible()
+        
+        WHDebugToolManager.sharedInstance()?.toggle(with: .all)
         // Override point for customization after application launch.
         return true
     }

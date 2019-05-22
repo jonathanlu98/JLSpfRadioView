@@ -1,0 +1,32 @@
+PODS:
+  - Masonry (1.1.0)
+  - SDWebImage (4.4.5):
+    - SDWebImage/Core (= 4.4.5)
+  - SDWebImage/Core (4.4.5)
+  - WHDebugTool (1.7)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - Masonry
+  - SDWebImage
+  - WHDebugTool (~> 1.7)
+  - YYKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - SDWebImage
+    - WHDebugTool
+    - YYKit
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: ecc03494e973b93b80213649d32175f8d2d17d4d
+  WHDebugTool: b3491d564804496891464c3df69543eb6e50621d
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: e874f489438a305f2ccca52dc3eaebfff1e5c14f
+
+COCOAPODS: 1.5.3
